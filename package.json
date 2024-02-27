@@ -1,0 +1,29 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "cool book app",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Sky0men/book_app)"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Ivan Zelenczov",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^8.57.0",
+    "rollup": "^4.12.0",
+    "rollup-plugin-import-css": "^3.5.0"
+  },
+  "dependencies": {
+    "on-change": "^5.0.1"
+  }
+}
